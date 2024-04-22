@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+/* variables */
+:root {
+  --background: linear-gradient(to right, #FFA1F5, #BC7AF9);
+
+  --primary-color: rgb(49, 49, 49);
+  --secondary-color: #7AA2E3;
+  --tertiary-color: #f700ff;
+  --quarter-color: #111111;
+
+  --navigation-color: #F8FF95;
+  --footer-color: #F8FF95;
+
+  --font-color: #86ac26;
+  --font-color-navigation: #000000;
+  --font-color-footer: #000000;
+  --link-color: #0081fa;
+  
+  --regular-font-size: 12px;
+  --larger-font-size: 16px;
+  --header-font-size: 28px;
+
+  --box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.2);
+}
