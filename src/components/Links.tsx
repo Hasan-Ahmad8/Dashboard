@@ -6,9 +6,8 @@ import 'react-tabs/style/react-tabs.css';
 export const LinkList = () => {
     const [links, setLinks] = useState([
         { id: 1, url: 'https://www.youtube.com/', name: 'Youtube' },
-        { id: 2, url: 'https://shitposter.world/', name: 'SPW' },
-        { id: 3, url: 'https://www.indeed.com/', name: 'Indeed'},
-        { id: 4, url: 'https://github.com/', name: 'Github'}
+        { id: 2, url: 'https://www.indeed.com/', name: 'Indeed'},
+        { id: 3, url: 'https://github.com/', name: 'Github'}
     ]);
 
  const [newLink, setNewLink] = useState({ url: '', name: '' });
