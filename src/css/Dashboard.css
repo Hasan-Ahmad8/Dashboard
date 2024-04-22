@@ -1,0 +1,67 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    font-family: 'Comic Sans MS', cursive, sans-serif !important;
+
+}
+
+.listOfLinks{
+    list-style-type: none; 
+    display: flex; 
+    justify-content: center;
+    padding: 0; 
+    margin-top: 70px;
+}
+
+.dashboard{
+    color:brown;
+}
+
+.dashboard__notes{
+    font-size: large;
+    width: 70%;
+    height: 250px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+    resize: none;
+    color: var(--font-color)
+}
+
+.dashboard__fileName{
+    width: 69.5%;
+    margin-bottom: 10px;
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    font-size: large;
+}
+
+.dashboard__clearNotes{
+    margin-right: 30px;
+}
+
+.tabs{
+    align-content: center;
+    width: 70%;
+}
+
+.dashboard__links{
+    display:contents;
+    align-content: center;
+}
+
+.link__item{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: large;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.dashboard__chooseFile{
+    margin-left: 50px;
+}
